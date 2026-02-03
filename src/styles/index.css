@@ -1,0 +1,8 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+a {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
