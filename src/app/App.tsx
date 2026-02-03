@@ -4,7 +4,7 @@ export default function App() {
       <div className="max-w-2xl mx-auto space-y-16">
         {/* Company name */}
         <h1 className="text-[2rem] leading-[1.2] tracking-tight">
-          Stach Ltd
+          Stach LTD
         </h1>
 
         {/* Main description */}

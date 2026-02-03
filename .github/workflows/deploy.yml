@@ -1,0 +1,41 @@
+name: Deploy to Digital Ocean
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run build
+
+      - name: Deploy to server
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.DEPLOY_HOST }}
+          username: ${{ secrets.DEPLOY_USER }}
+          key: ${{ secrets.DEPLOY_KEY }}
+          script: |
+            cd /var/www/stach-ltd
+            rm -rf *
+            cd /tmp
+            git clone https://github.com/jmstach/stach-website.git stach-deploy-tmp
+            cd stach-deploy-tmp
+            npm install
+            npm run build
+            cp -r dist/* /var/www/stach-ltd/
+            rm -rf /tmp/stach-deploy-tmp
