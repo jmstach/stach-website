@@ -10,10 +10,10 @@ export default function App() {
         {/* Main description */}
         <div className="space-y-6">
           <p className="text-[1rem] leading-[1.75] text-black/80 font-bold">
-            With over 15 years of experience helping businesses innovate, grow, and succeed, I bring a strategic approach to creating user-centred digital products. My expertise is supported by a deep understanding of agile and lean methodologies, data-driven decision-making, and cross-functional team leadership.
+            I've over 20 years of experience helping businesses to innovate, grow, and succeed, I bring a strategic approach to creating user-centred digital products. My expertise is supported by a deep understanding of agile, lean, and pragmatic methodologies; data-driven decision-making; and cross-functional team leadership.
           </p>
           <p className="text-[1rem] leading-[1.75] text-black/80">
-            From startups to established companies, I am able to develop and lead your product strategy and enhance user experiences for real, measurable results.
+            From startups to long-established companies, I am able to develop and lead your product strategy and enhance user experiences for real, measurable results.
           </p>
         </div>
 
@@ -37,9 +37,9 @@ export default function App() {
             <p>I'm constantly exploring new ideas and building tools that push the boundaries of design and development. Here's what I'm currently working on:</p>
           </div>
           <div className="space-y-3 text-[1rem] leading-[1.75] text-black/70">
-            <li>2025 &mdash; <strong className="text-black/70 font-semibold"><a href="https://colourtool.stach.co.uk" title="">Colourtool</a></strong>, a utility for designers to create and manage accessible colour palettes</li>
+            <li>2026 &mdash; <strong className="text-black/70 font-semibold"><a href="https://b2.stach.ltd" title="">B2</a></strong>, a macOS app. B2 is a fast, lightweight spreadsheet that lives in your menubar. A spreadsheet for thinking, not reporting.</li>
             <li>2025 &mdash; <strong className="text-black/70 font-semibold"><a href="https://www.figma.com/community/plugin/1496924636095373164/ctrlfrk-grad" title="">GRAD</a></strong>, a Figma plugin. GRAD gives you unprecedented control over colour transitions through the power of Bezier curves.</li>
-            <li>2026 &mdash; <strong className="text-black/70 font-semibold">B2</strong>, a macOS app. B2 is a fast, lightweight spreadsheet that lives in your menubar. A spreadsheet for thinking, not reporting.</li>
+            <li>2025 &mdash; <strong className="text-black/70 font-semibold"><a href="https://colourtool.stach.co.uk" title="">Colourtool</a></strong>, a utility for designers to create and manage accessible colour palettes</li>
           </div>
         </div>
 
