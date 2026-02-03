@@ -13,7 +13,7 @@ export default function App() {
             I've over 20 years of experience helping businesses to innovate, grow, and succeed, I bring a strategic approach to creating user-centred digital products. My expertise is supported by a deep understanding of agile, lean, and pragmatic methodologies; data-driven decision-making; and cross-functional team leadership.
           </p>
           <p className="text-[1rem] leading-[1.75] text-black/80">
-            From startups to long-established companies, I am able to develop and lead your product strategy and enhance user experiences for real, measurable results.
+            From startups to enterprise companies, I am able to develop and lead your product strategy and enhance user experiences for real, measurable results.
           </p>
         </div>
 
